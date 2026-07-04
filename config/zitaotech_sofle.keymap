@@ -195,15 +195,26 @@
             display-name = "Layer-Tap";
         };
 
-        ltm_studio: studio_layer_tap_mouse {
+        lt_lower_lclick: lower_layer_left_click {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
+            #binding-cells = <0>;
 
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
 
-            bindings = <&mo &mkp>;
-            display-name = "Layer-Tap Mouse";
+            bindings = <&mo 1 &mkp MB1>;
+            display-name = "Lower / LClick";
+        };
+
+        lt_lower_rclick: lower_layer_right_click {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <0>;
+
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+
+            bindings = <&mo 1 &mkp MB2>;
+            display-name = "Lower / RClick";
         };
     };
 };
