@@ -1,0 +1,7 @@
+name: zmk-behavior-click-layer-tap
+
+build:
+  cmake: .
+
+settings:
+  dts_root: .
