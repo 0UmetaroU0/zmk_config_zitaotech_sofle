@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: cormoran
       url-base: https://github.com/cormoran
-    - name: umetaro
-      url-base: https://github.com/0UmetaroU0
 
   projects:
     - name: zmk-module-runtime-input-processor
@@ -11,7 +9,7 @@ manifest:
       revision: zmk-v0.3.0.0
 
     - name: zmk-feature-custom-settings
-      remote: umetaro
+      url: https://github.com/0UmetaroU0/zmk-feature-custom-settings-v03
       revision: v0.3-port
 
     - name: zmk
