@@ -208,26 +208,14 @@ layers:
     '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 combos:
 - p: [29, 30]
-  k: '&rmacro 8'
+  k: '&rmacro 4'
   l: [QWERTY]
 - p: [35, 36]
-  k: '&rmacro 9'
+  k: '&rmacro 5'
   l: [QWERTY]
 - p: [28, 29]
-  k: '&rmacro 10'
+  k: '&rmacro 6'
   l: [QWERTY]
 - p: [36, 37]
-  k: '&rmacro 11'
-  l: [QWERTY]
-- p: [28, 30]
-  k: '&rmacro 12'
-  l: [QWERTY]
-- p: [35, 37]
-  k: '&rmacro 13'
-  l: [QWERTY]
-- p: [28, 29, 30]
-  k: '&rmacro 14'
-  l: [QWERTY]
-- p: [35, 36, 37]
-  k: '&rmacro 15'
+  k: '&rmacro 7'
   l: [QWERTY]
