@@ -270,5 +270,3 @@
         };
     };
 };
-
-CONFIG_ZMK_RUNTIME_MACRO_COUNT=16
