@@ -26,56 +26,28 @@
             timeout-ms = <40>;
             key-positions = <29 30>;
             layers = <0>;
-            bindings = <&rmacro 8>;
+            bindings = <&rmacro 4>;
         };
 
         combo_jk {
             timeout-ms = <40>;
             key-positions = <35 36>;
             layers = <0>;
-            bindings = <&rmacro 9>;
+            bindings = <&rmacro 5>;
         };
 
         combo_sd {
             timeout-ms = <40>;
             key-positions = <28 29>;
             layers = <0>;
-            bindings = <&rmacro 10>;
+            bindings = <&rmacro 6>;
         };
 
         combo_kl {
             timeout-ms = <40>;
             key-positions = <36 37>;
             layers = <0>;
-            bindings = <&rmacro 11>;
-        };
-
-        combo_sf {
-            timeout-ms = <40>;
-            key-positions = <28 30>;
-            layers = <0>;
-            bindings = <&rmacro 12>;
-        };
-
-        combo_jl {
-            timeout-ms = <40>;
-            key-positions = <35 37>;
-            layers = <0>;
-            bindings = <&rmacro 13>;
-        };
-
-        combo_sdf {
-            timeout-ms = <40>;
-            key-positions = <28 29 30>;
-            layers = <0>;
-            bindings = <&rmacro 14>;
-        };
-
-        combo_jkl {
-            timeout-ms = <40>;
-            key-positions = <35 36 37>;
-            layers = <0>;
-            bindings = <&rmacro 15>;
+            bindings = <&rmacro 7>;
         };
     };
 };
